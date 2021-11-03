@@ -10,8 +10,10 @@ cleanup:
 finish-args:
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
   - --share=network
   - --device=all
+  - --device=dri
   - --socket=pulseaudio
   - --filesystem=xdg-music:ro
   - --filesystem=xdg-download:ro
