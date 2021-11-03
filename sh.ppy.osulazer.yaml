@@ -9,7 +9,8 @@ cleanup:
   - /lib/debug
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
   - --share=network
   - --device=all
   - --socket=pulseaudio
@@ -18,7 +19,8 @@ finish-args:
   - --filesystem=xdg-videos:ro
   - --filesystem=xdg-pictures:ro
   - --filesystem=~/.wine:ro
-  - --env=DOTNET_CLI_TELEMETRY_OPTOUT=false
+  - --filesystem=~/.osu:ro
+  - --env=DOTNET_CLI_TELEMETRY_OPTOUT=true
 command: osu-lazer
 modules:
   - name: osu-lazer

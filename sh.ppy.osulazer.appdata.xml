@@ -6,13 +6,13 @@
     <summary>A free-to-win rhythm game. Rhythm is just a *click* away!</summary>
     <summary xml:lang="ru">Популярная ритм-игра с открытым исходным кодом</summary>
     <description>
-        <p>Open source rhythm game written in C# and inspired by other games, including Osu! Tatakae! Ouendan, Taiko no Tatsujin, Happy Feet, Beatmania IIDX, etc.</p>
+        <p>Open source rhythm game written in C# and inspired by Osu! Tatakae! Ouendan</p>
         <p>
             Attention: Unofficial build. Please report all bugs found on https://github.com/flathub/sh.ppy.osulazer (if you think they may be related to a flatpak)
         </p>
     </description>
     <description xml:lang="ru">
-        <p>Бесплатная популярная ритм-игра с открытым исходным кодом написанная на C# и вдохнавлённая такими играми как: Osu! Tatakae! Ouendan, Elite Beat Agents, Taiko no Tatsujin, Beatmania IIDX и другими.</p>
+        <p>Бесплатная популярная ритм-игра с открытым исходным кодом написанная на C# и вдохнавлённая Osu! Tatakae! Ouendan</p>
         <p>
             Внимание: неофициальная сборка. Пожалуйста, сообщайте о всех найденых багах на https://github.com/flathub/sh.ppy.osulazer (если вы думаете, что они могут быть связаны с flatpak)
         </p>
